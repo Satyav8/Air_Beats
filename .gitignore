@@ -1,0 +1,60 @@
+# -----------------------------
+# PYTHON / ENVIRONMENT
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# SECURITY: DO NOT UPLOAD KEYS
+# -----------------------------
+.env
+*.env
+
+# Spotify auth cache (Spotipy token)
+.cache
+.cache-*
+
+# -----------------------------
+# MEDIA / TEMP
+# -----------------------------
+*.png
+*.jpg
+*.jpeg
+*.mp4
+
+# -----------------------------
+# BACKUP / TEMP FILES
+# -----------------------------
+*.bak
+*.tmp
+*.swp
+*.swo
